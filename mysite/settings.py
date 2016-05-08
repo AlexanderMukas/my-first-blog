@@ -88,8 +88,9 @@ DATABASES = {
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
 # 02.05.2016 - Добавляем свой временной пояс
-LANGUAGE_CODE = 'en-us'
-
+#LANGUAGE_CODE = 'en-us'
+# 08.05.2016 Добавил, рус
+LANGUAGE_CODE = 'ru-ru'
 #TIME_ZONE = 'UTC'
 TIME_ZONE = 'Europe/Kiev'
 
