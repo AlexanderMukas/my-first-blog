@@ -5,10 +5,28 @@
             {% if post.published_date %}
                 <div class="date">
                     {{ post.published_date }}
+                    <hr>
                 </div>
             {% endif %}
             <h1>{{ post.title }}</h1>
             <p>{{ post.text|linebreaks }}</p>
+        </div>
+
+        <div class="comments">
+
+        <!-- load the tags -->
+        {% load disqus_tags %}
+        <!-- get comments for your website -->
+        {% disqus_show_comments "aircraft" %}
+        <!-- get the url for the current object to get the right comments -->
+        {% set_disqus_url post.get_absolute_url %}
+    <!--
+    var disqus_config = function () {
+        this.page.url = 'http://127.0.0.1:8000{{ request.get_full_path }}';
+        this.page.identifier = '{{ post.id }}'; 
+    };
+    -->
+        
         </div>
     {% endblock %}
 

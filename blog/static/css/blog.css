@@ -5,18 +5,49 @@ h1 a {
 body {
         /*padding-left: 15px;*/
     	
+        background-image: url("../img/footer.png");
+        background-repeat: repeat;
+
+            /* stiky footer*/
+        height: 100%;
+            /*end stiky footer*/
         /*
         background-image:url('{{ STATIC_URL }} img/bgfull.jpg');
         background-repeat:no-repeat;
 		background-size:100%;
 		*/
     }
+.footer {
+    border-top: 1px solid #eee;
+        /* stiky footer*/
+    height: 60px;
+    
+        /*end stiky footer*/
+    text-align: center;
+    background-image: url("../img/header.png");
+    background-repeat: repeat;
+    padding: 20px;
+}
+
+.footer h4, .footer h4 a, .footer h4 a:visited, .footer h4 a:active {
+        color: #ffffff;
+        font-size: 16pt;
+        text-decoration: none;
+
+        margin: auto;
+    }
 
 
 .page-header {
+
+
+        background-image: url("../img/header.png");
+        background-repeat: repeat;
+        /*
         background-color: #006bb3;
+        */
         margin-top: 0;
-        padding: 20px 20px 20px 40px;
+        padding: 20px 20px 20px 20px;
 
         text-align: center;
     }
@@ -30,8 +61,27 @@ body {
     }
 
 .content {
-    /*margin-left: 40px;*/
+    /*margin-left: 40px;
     margin: auto;
+    padding: 20px 20px 20px 20px;
+    */
+
+    /* 19 may 2016 - background mail block*/
+    border-radius: 10px;
+    background-image: url("../img/main.png");
+    background-repeat: repeat;
+
+    /* stiky footer*/
+    
+    min-height: 100%;
+    height: auto;
+    /* Negative indent footer by its height */
+    margin: 0 auto -60px;
+    /* Pad bottom by footer height */
+    padding: 20px 20px 60px;
+
+    /*end stiky footer*/
+
 }
 
 h1, h2, h3, h4 {
@@ -62,20 +112,37 @@ hr {
     color: #ffffff;
     float: right;
     font-size: 26pt;
-    margin-right: 20px;
+    /*margin-right: 20px;*/
 }
 
-.post {
+.post, .comments {
 
-	border-radius: 0 10px;
+	 /**/
+    border-radius: 0 10px;
+
+    margin-bottom: 40px;
+    
+    background-image: url("../img/posts.png");
+    background-repeat: repeat;
+
+    /*
+    background-color:rgba(179,240,255,0.5);
+    background-color: #e1e1ea;*/
+    
+    padding: 20px 20px 20px 20px;
+}
+/*
+.comments {
+
+    border-radius: 0 10px;
 
     margin-bottom: 70px;
     
     background-color:rgba(179,240,255,0.5);
-    /*background-color: #e1e1ea;*/
-    
-    padding: 10px 10px 10px 10px;
+
+    padding: 20px 20px 20px 20px;
 }
+*/
 
 .post h1 a, .post h1 a:visited {
     color: #000000;

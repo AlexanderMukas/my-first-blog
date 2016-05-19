@@ -9,7 +9,7 @@
 				<hr>
 			</div>
 			<h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
-			<p>{{ post.text|linebreaks }}</p>
+			<p>{{ post.get_short_text|linebreaks }}</p>
 		</div>
 	{% endfor %}
 {% endblock content %}

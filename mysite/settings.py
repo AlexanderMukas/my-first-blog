@@ -13,6 +13,15 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 
+#-- 08.05.2016 Django-suit
+from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS as TCP
+
+TEMPLATE_CONTEXT_PROCESSORS = TCP + (
+    'django.core.context_processors.request',
+)
+#--
+
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -25,12 +34,18 @@ SECRET_KEY = '8y@^g6!@+r6e(6s^-vn80hbu6fw$#xbs(^8shhxe#3vg(y_gqn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+SITE_ID = 1
+# 08.05.2016 add host
+# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['alexandermukas.pythonanywhere.com']
+#ALLOWED_HOSTS = ['*']
 
 # Application definition
 # 02.05.2016 - Добавляем созданное приложение blog
 INSTALLED_APPS = (
+    #08.04.2016 Django-Suit Admin panel install
+    'suit',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,7 +54,16 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     
     'blog',
+    # 15.05.2016 add comments Disqus
+    'disqus',
 )
+
+# 15.05.2016 add comments Disqus
+# api key in https://disqus.com/api/applications/4302772/
+DISQUS_API_KEY = 'OurPwnBU0ewhSlYbf8XcUaSv9OPnHfwFJAbRHhPzfRwDyUpkTZ2BDBi9VMK0RiCN'
+DISQUS_WEBSITE_SHORTNAME = 'aircraft'
+# 
+
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',

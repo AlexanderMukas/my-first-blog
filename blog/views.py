@@ -21,6 +21,7 @@ def post_list(request):
 	return render(request, 'blog/post_list.html', {'posts': posts})
 # 08.05.2016
 def post_detail(request, pk):
+	#url = Post.get_absolute_url(Post)
 	post = get_object_or_404(Post, pk=pk)
 	return render(request, 'blog/post_detail.html', {'post' : post})
 
