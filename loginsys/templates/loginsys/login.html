@@ -1,0 +1,22 @@
+{% extends 'blog/base.html' %}
+
+{% block login %}
+	
+<form action="/auth/login/" method="POST">
+	{% csrf_token %}
+	<p>Login new</p>
+	<!-- Username -->
+	<label for="username">Username</label>
+	<input type="text" id="username" name="username" >
+	 <!-- Password-->
+	<label class="control-label" for="password">Password</label>
+	<input type="password" id="password" name="password" >
+	<!-- if Error-->
+	{% if login_error %}
+		<label class="error">  {{ login_error }} </label>
+	{% endif %}
+	<!-- Button -->
+	<p><input type="submit"></p>
+</form>
+		
+{% endblock %}

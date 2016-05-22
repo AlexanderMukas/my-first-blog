@@ -30,6 +30,18 @@ class Post(models.Model):
 			return self.text[:SHORT_TEST_LEN] + '...'
 		else:
 			return self.text
+			
+#21.05.2016 Перенести в Data_app
+#class Employees(models.Model):
+#	first_name = models.CharField(max_length=100) 
+#	last_name = models.CharField(max_length=100)
+#	mid_name = models.CharField(max_length=100)
+#	date_enter = models.DateField(blank=True, null=True)
+#	date_dismis = models.DateField(blank=True, null=True)
+#	num_pass = models.CharField(max_length=8)
+#	inn = models.CharField(max_length=10)
+#	phone = models.CharField(max_length=12)
+		
 
 		
 	

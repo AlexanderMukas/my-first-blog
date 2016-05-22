@@ -52,10 +52,12 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
+    # 01.05.2016 add blog app
     'blog',
     # 15.05.2016 add comments Disqus
     'disqus',
+    # 22.05.2016 add auth/login , auth/logout
+    'loginsys',
 )
 
 # 15.05.2016 add comments Disqus
@@ -74,6 +76,9 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    #22.05.2016 add csrf_token
+    'django.middleware.csrf.CsrfViewMiddleware',
+    #
 )
 
 ROOT_URLCONF = 'mysite.urls'

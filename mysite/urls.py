@@ -11,6 +11,11 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     
     # 02.05.16 Домашняя страничка
+    #url(r'', include('blog.urls')),
+
+   	# 22.05.16 Авторизация/Регистрация
+   	url(r'^auth/', include('loginsys.urls')),
+    
+    # 22.05.16 Домашняя страничка. Поставим ниже, чтобы работала авторизация
     url(r'', include('blog.urls')),
-    #
 ]

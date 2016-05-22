@@ -17,6 +17,32 @@ body {
 		background-size:100%;
 		*/
     }
+
+.logo{
+    height:120%;
+}
+.navbar-brand {
+    height: 80px;
+}
+
+.nav >li >a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0;
+}
+
+.navbar {
+    background-image: url("../img/header.png");
+    background-repeat: repeat;
+
+}
+
+
+
+
 .footer {
     border-top: 1px solid #eee;
         /* stiky footer*/
@@ -130,6 +156,8 @@ hr {
     background-color: #e1e1ea;*/
     
     padding: 20px 20px 20px 20px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /*
 .comments {

@@ -1,5 +1,16 @@
     {% extends 'blog/base.html' %}
 
+    {% block title %}
+       Новость №{{ post.id }}
+    {% endblock %}
+
+{% block act1 %} {% endblock %}
+{% block act2 %} {% endblock %}
+{% block act3 %} {% endblock %}
+{% block act4 %} {% endblock %}
+
+
+
     {% block content %}
         <div class="post">
             {% if post.published_date %}

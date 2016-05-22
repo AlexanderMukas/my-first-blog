@@ -1,7 +1,15 @@
 {% load staticfiles %}
     <html>
         <head>
-            <title>Django 1.8 blog</title>
+            <title>
+                {% block title %}
+                {% endblock %}
+            </title>
+            <!--
+            <link rel="shortcut icon" href="../../static/img/icon.png" type="image/x-icon">
+            -->
+            <link rel="shortcut icon" href="{% static 'img/icon.png' %}" type="image/x-icon">
+
             <meta charset="UTF-8" />
 
             <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -16,14 +24,81 @@
             <!-- Latest compiled and minified JavaScript -->
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-
-
         </head>
+
         <body>
-            <!--class="page-header  navbar-fixed-top" -->
+
+            <!--New header 19 may 2016 Mukas Alexander -->
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar3">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="/"><img class="logo" src="{% static "img/logo2.png" %}" alt="лого">
+                        </a>
+                    </div>
+
+                    <!--
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="#">Новости</a></li>
+                            <li><a href="#">О проекте</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                   /.nav-collapse -->
+                    <div class="navbar-collapse collapse">
+                          
+                        <ul class="nav navbar-nav">
+                            
+                                <li {% block act1 %} {% endblock %}> <a href="{% url 'post_list' %}">Новости</a></li> class="active"
+                                <li {% block act2 %} {% endblock %}> <a href="{% url 'contacts' %}">Контакты</a></li>
+                                <li {% block act3 %} {% endblock %}> <a href="{% url 'about' %}">О проекте</a></li>
+                                <li {% block act4 %} {% endblock %}> <a href="#">База данных</a></li>        
+                        
+                        </ul>
+                        
+                        <!--22.05.2016 Добавил авторизацию пользователей -->
+                        <ul class="nav navbar-nav navbar-right">
+                            {% if username %}
+                                <li>
+                                    <a href="{% url 'logout' %}">Привет {{ username }},
+                                        <span class="glyphicon glyphicon-log-out"></span>Выйти?</a>
+                                </li>
+
+                            {% else %}
+
+                                <li>
+                                    <a href="{% url 'register' %}"><span class="glyphicon glyphicon-user"></span> Регистрация</a>
+                                </li>
+                                <li>
+                                    <a href="{% url 'login' %}"><span class="glyphicon glyphicon-log-in"></span> Войти</a>
+                                </li>
+                            {% endif %}
+                        </ul>
+                    </div>
+
+
+                </div>
+            <!--/.container-fluid -->
+            </nav>
+
+
+
+
+
+            <!-- class="page-header  navbar-fixed-top" 
             <div class="page-header">
+
+                <img src="{% static "img/logo.png" %}" alt="лого" />
+
         		<h1><a href="/" >Django 1.8 by Alexander Mukas Blog</a></h1>
     		</div>
+            -->
 
     		<!--Переменную posts мы добавляли с blog/views.py -->
     		
@@ -47,7 +122,8 @@
                         {% block content %}
                         {% endblock %}
 
-
+                        {% block login%}
+                        {% endblock %}
             		</div>
         		</div>
     		</div>

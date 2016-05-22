@@ -1,6 +1,15 @@
 {% extends 'blog/base.html' %}    
 {% load staticfiles %}
 
+{% block title %}
+Aircraft Blog - Новости
+{% endblock %}
+
+{% block act1 %} class="active" {% endblock %}
+{% block act2 %} {% endblock %}
+{% block act3 %} {% endblock %}
+{% block act4 %} {% endblock %}
+
 {% block content %} 
 	{% for post in posts %}
 		<div class="post pagination-centered">
