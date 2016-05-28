@@ -13,7 +13,8 @@ class UserForm(UserCreationForm):
         fields = ("username", "email", "password1", "password2")
 
     def save(self, commit=True):
-        user = super(UserCreateForm, self).save(commit=False)
+        #user = super(UserCreateForm, self).save(commit=False)
+        user = super(UserForm, self).save(commit=False)
         user.email = self.cleaned_data["email"]
         if commit:
             user.save()
