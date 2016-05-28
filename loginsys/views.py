@@ -4,7 +4,8 @@ from django.contrib import auth
 # security
 from django.template.context_processors import csrf
 # register templates
-from django.contrib.auth.forms import UserCreationForm
+#from django.contrib.auth.forms import UserCreationForm
+from .forms import UserForm
 ### 22.05.2016 из blog/views.py
 # Create your views here.
 #08.05.2016 mukas If page don't found
@@ -41,9 +42,11 @@ def logout(request):
 def register(request):
 	args = {}
 	args.update(csrf(request))
-	args['form_reg'] = UserCreationForm()
+	args['form_reg'] = UserForm()
+	#args['form_reg'] = UserCreationForm()
 	if request.POST:
-		newuser_form = UserCreationForm(request.POST)
+		newuser_form = UserForm(request.POST)
+		#newuser_form = UserCreationForm(request.POST)
 		if newuser_form.is_valid():
 			newuser_form.save()
 			newuser = auth.authenticate(username=newuser_form.cleaned_data['username'],

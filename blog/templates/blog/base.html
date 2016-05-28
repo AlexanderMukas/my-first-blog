@@ -19,6 +19,30 @@
             <link rel="stylesheet" href="{% static 'css/blog.css' %}">
 
             <link href='https://fonts.googleapis.com/css?family=Merriweather&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+            <!-- 28.05.2016 Google Maps for Contacts.html -->
+            <script src="http://maps.googleapis.com/maps/api/js">
+            </script>
+
+            <script>
+                var MyCenter=new google.maps.LatLng(47.8606485,35.1020754);
+                function initialize() {
+                    var mapProp = {
+                        center: MyCenter,
+                        zoom:17,
+                        mapTypeId:google.maps.MapTypeId.ROADMAP
+                    };
+                    var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                    // marker 
+                    var marker=new google.maps.Marker({
+                            position:MyCenter,
+                        });
+                    marker.setMap(map);
+                }
+            google.maps.event.addDomListener(window, 'load', initialize);
+            </script>
+            <!--input in HTML template :
+            <div id="googleMap" style="width:500px;height:380px;"></div> 
+            -->
 
 
             <!-- Latest compiled and minified JavaScript -->

@@ -1,15 +1,61 @@
 {% extends 'blog/base.html' %}
 
 {% block login %}
-	<div>
+<!--
+	<div class="form-group">
 		<form action="/auth/register/" method="POST">
 			{% csrf_token %}
-			<p>Register new</p>
-
-			{{ form_reg }}
-
+			<div id="legend">
+			      <legend class="">Регистрация:</legend>
+			</div>
+			<div class="form-group">
+				{{ form_reg.email }}
+			</div>
 			<p><input type="submit" value="Зарегистрироваться"></p>
 		</form>
 	</div>
-		
+-->
+<!-- fields = ("username", "email", "password1", "password2") -->
+
+<div class="container-fluid">
+    <section class="container">
+		<div class="container-page">				
+			<div class="col-md-6 text-right">
+				
+				<div id="legend">
+			      <legend class="text-left">Регистрация:</legend>
+			    </div>
+				<!-- <h3 class="dark-grey text-left">Регистрация</h3> -->
+				
+				<div class="form-group ">
+					<label>Username</label>
+					{{ form_reg.username }}
+				</div>
+				<br />
+				<div class="form-group ">
+					<label>Пароль:</label>
+					{{ form_reg.password1 }}
+				</div>
+				<br />
+				<div class="form-group ">
+					<label>Повторите пароль:</label>
+					{{ form_reg.password2 }}
+				</div>
+				<br />				
+				<div class="form-group ">
+					<label>Email:</label>
+					{{ form_reg.email }}
+				</div>			
+				
+				<button type="submit" class="btn btn-primary">Зарегистрироваться!</button>
+			</div>	
+			
+			
+		</div>
+	</section>
+</div>
+
+
+
+
 {% endblock %}
