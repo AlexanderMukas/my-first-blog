@@ -5,6 +5,26 @@
 Контакты
 {% endblock %}
 
+{% block js_script %}
+<script>
+	var MyCenter=new google.maps.LatLng(47.8606485,35.1020754);
+    function initialize() {
+    	var mapProp = {
+        	center: MyCenter,
+            zoom:17,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+        var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        // marker 
+        var marker=new google.maps.Marker({
+            position:MyCenter,
+        });
+        marker.setMap(map);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+{% endblock %}
+
 {% block act1 %} {% endblock %}
 {% block act2 %} class="active" {% endblock %}
 {% block act3 %} {% endblock %}

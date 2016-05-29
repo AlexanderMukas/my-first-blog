@@ -18,6 +18,13 @@ body {
 		*/
     }
 
+.copy{
+
+    font-size: 10px;
+    text-align: left;
+    color: #aeaeae;
+}
+
 .logo{
     height:120%;
 }
@@ -47,9 +54,9 @@ body {
     border-top: 1px solid #eee;
         /* stiky footer*/
     height: 60px;
-    
-        /*end stiky footer*/
-    text-align: center;
+    /*
+        end stiky footer
+    text-align: center;*/
     background-image: url("../img/header.png");
     background-repeat: repeat;
     padding: 20px;
