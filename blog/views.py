@@ -38,3 +38,6 @@ def contacts(request):
 def about(request):
 	return render(request, 'blog/about.html')
 
+#def admin-panel(request):
+#	return render(request, '')
+

@@ -1,3 +1,4 @@
+#-*- coding: utf-8 -*-
 """
 Django settings for mysite project.
 
@@ -44,7 +45,9 @@ ALLOWED_HOSTS = ['alexandermukas.pythonanywhere.com']
 # 02.05.2016 - Добавляем созданное приложение blog
 INSTALLED_APPS = (
     #08.04.2016 Django-Suit Admin panel install
+    'suitlocale',
     'suit',
+    'import_export',
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -58,6 +61,8 @@ INSTALLED_APPS = (
     'disqus',
     # 22.05.2016 add auth/login , auth/logout
     'loginsys',
+    # 29.05.2016 data
+    'data',
 )
 
 # 15.05.2016 add comments Disqus
@@ -137,3 +142,43 @@ STATIC_URL = '/static/'
 
 # 02.05.2016 - Добавляем еще строчку. STATIC_ROOT
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# 29.05.2016 Django-Suit settings
+
+# Django Suit configuration example
+SUIT_CONFIG = {
+    #'MENU':(
+    # Rename app and set icon
+    #    {'app': 'blog', 'label': 'Блог' ,'icon':'icon-leaf', 'models': (
+    #        'Post'   #, 'continent', 'kitchensink'
+    #    )},
+    #),
+
+
+    # header
+    'ADMIN_NAME': 'Aircraft',
+    # 'HEADER_DATE_FORMAT': 'l, j. F Y',
+    # 'HEADER_TIME_FORMAT': 'H:i',
+
+    # forms
+    # 'SHOW_REQUIRED_ASTERISK': True,  # Default True
+    # 'CONFIRM_UNSAVED_CHANGES': True, # Default True
+
+    # menu
+    # 'SEARCH_URL': '/admin/auth/user/',
+    #'MENU_ICONS': {
+    #    'Blog': 'icon-leaf',
+    #    'Data': 'icon-leaf',
+    #    'auth': 'icon-lock',
+    #},
+    # 'MENU_OPEN_FIRST_CHILD': True, # Default True
+    # 'MENU_EXCLUDE': ('auth.group',),
+    # 'MENU': (
+    #     'sites',
+    #     {'app': 'auth', 'icon':'icon-lock', 'models': ('user', 'group')},
+    #     {'label': 'Settings', 'icon':'icon-cog', 'models': ('auth.user', 'auth.group')},
+    #     {'label': 'Support', 'icon':'icon-question-sign', 'url': '/support/'},
+    # ),
+
+    # misc
+    # 'LIST_PER_PAGE': 15
+}

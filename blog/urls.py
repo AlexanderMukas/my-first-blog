@@ -9,5 +9,7 @@ urlpatterns = [
 	url(r'^contacts/$', views.contacts, name='contacts'),
 	# 22.05.2016 Для about.html
 	url(r'^about/$', views.about, name='about'),
+	# 29.05.2016 Для работы в БД через админ панель
+	#url(r'^admin/$'), 
 
 ]
