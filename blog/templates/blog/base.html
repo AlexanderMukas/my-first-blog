@@ -23,6 +23,10 @@
             <script src="http://maps.googleapis.com/maps/api/js">
             </script>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+            <!-- 19.06.2016 Social networks for footer -->
+            <!--Pulling Awesome Font -->
+            <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
             {% block js_script %}
             {% endblock %}
 
@@ -138,14 +142,44 @@
     		</div>
 
             <div class="footer">
-                <div class="copyright">
-                    <span class="copy">
-                        Copyright © 2016 Aircraft.
-                        <br />
-                        студент ЗГИА, группы СП-14о - Александр Мукась 
-                    </span>
+                <div class="copyright col-md-4">
+                    <div class="copy">
+                        Copyright © 2016 Aircraft.<br />
+                        СП-14о - Александр Мукась 
+                    </div>
 
 
+                </div>
+                <div class="col-md-4 django-ico">
+                    <a href="https://www.djangoproject.com/">
+                        <img src="https://www.djangoproject.com/s/img/badges/djangopowered126x54.gif" alt="Django">
+                    </a>
+                </div>
+
+
+                <div class="col-md-4">
+                    <ul class="social-network social-circle">
+                        <li><a href="https://github.com/AlexanderMukas/my-first-blog" class="icoGithub social" title="Github">
+                                <i class="fa fa-github"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://www.facebook.com/Mukas.Alexander" class="icoFacebook social" title="Facebook">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://twitter.com/OlexanderMukas" class="icoTwitter social" title="Twitter">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://plus.google.com/u/0/102638399922448926793" class="icoGoogle social" title="Google +">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </li>
+                        <li><a href="https://ua.linkedin.com/in/alexander-mukas-663a69b4" class="icoLinkedin social" title="Linkedin">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                    </ul>               
                 </div>
                 <!-- <h4>Django 1.8 by Alexander Mukas Blog</h4> -->
 
