@@ -1,7 +1,7 @@
 # my-first-blog
 Requirements
 ---------------------
-Operation system - GNU/LINUX.
+Operation system - GNU/LINUX, MacOS or Windows.
 
 Language - Python > 3.0
 
@@ -12,6 +12,8 @@ Python packages from PyPi (pip):
   4. django-import-export
   5. tablib
   6. django-suit-locale
+  7. py-moneyed
+  8. django-money
 
 Installation
 ---------------------
@@ -21,6 +23,7 @@ Open the GNU/LINUX terminal and ENTER THIS:
 ~$sudo python3 manage.py makemigrations
 ~$sudo python3 manage.py migrate
 ~$sudo python3 manage.py syncdb
+~$sudo python3 manage.py loaddata data/fixtures/all_data.json
 ```
 
 
