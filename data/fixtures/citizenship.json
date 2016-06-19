@@ -1,0 +1,1003 @@
+[  
+
+  {
+    "model": "data.citizenship",
+    "pk": 1,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1991-01-01",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 2,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1980-02-02",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 3,
+    "fields": {
+      "id_country": 5,
+      "id_continent": 7,
+      "date_obtain": "1960-10-02",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 4,
+    "fields": {
+      "id_country": 5,
+      "id_continent": 7,
+      "date_obtain": "1970-01-02",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 5,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1977-08-28",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 6,
+    "fields": {
+      "id_country": 2,
+      "id_continent": 1,
+      "date_obtain": "1967-01-01",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 7,
+    "fields": {
+      "id_country": 8,
+      "id_continent": 5,
+      "date_obtain": "1968-05-04",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 8,
+    "fields": {
+      "id_country": 8,
+      "id_continent": 5,
+      "date_obtain": "1970-02-07",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 9,
+    "fields": {
+      "id_country": 2,
+      "id_continent": 1,
+      "date_obtain": "1980-08-07",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 10,
+    "fields": {
+      "id_country": 8,
+      "id_continent": 5,
+      "date_obtain": "1967-09-22",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 11,
+    "fields": {
+      "id_country": 8,
+      "id_continent": 5,
+      "date_obtain": "1967-06-26",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 12,
+    "fields": {
+      "id_country": 8,
+      "id_continent": 5,
+      "date_obtain": "1968-06-26",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 13,
+    "fields": {
+      "id_country": 2,
+      "id_continent": 1,
+      "date_obtain": "1967-06-26",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 14,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1969-06-26",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 15,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1967-06-26",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 16,
+    "fields": {
+      "id_country": 8,
+      "id_continent": 5,
+      "date_obtain": "1971-06-26",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 17,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1978-06-26",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 18,
+    "fields": {
+      "id_country": 2,
+      "id_continent": 1,
+      "date_obtain": "1971-06-22",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 19,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1978-06-21",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 20,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1971-03-22",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 21,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1996-03-22",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 22,
+    "fields": {
+      "id_country": 8,
+      "id_continent": 5,
+      "date_obtain": "1994-03-22",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 23,
+    "fields": {
+      "id_country": 45,
+      "id_continent": 5,
+      "date_obtain": "1994-06-15",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 24,
+    "fields": {
+      "id_country": 45,
+      "id_continent": 5,
+      "date_obtain": "1980-01-15",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 25,
+    "fields": {
+      "id_country": 45,
+      "id_continent": 5,
+      "date_obtain": "1994-01-01",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 26,
+    "fields": {
+      "id_country": 45,
+      "id_continent": 5,
+      "date_obtain": "1980-08-12",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 27,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1980-08-12",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 28,
+    "fields": {
+      "id_country": 45,
+      "id_continent": 5,
+      "date_obtain": "1980-08-12",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 29,
+    "fields": {
+      "id_country": 45,
+      "id_continent": 5,
+      "date_obtain": "1980-08-12",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 30,
+    "fields": {
+      "id_country": 45,
+      "id_continent": 5,
+      "date_obtain": "1981-12-12",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 31,
+    "fields": {
+      "id_country": 2,
+      "id_continent": 1,
+      "date_obtain": "1984-12-12",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 32,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1981-01-14",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 33,
+    "fields": {
+      "id_country": 45,
+      "id_continent": 5,
+      "date_obtain": "1982-01-15",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 34,
+    "fields": {
+      "id_country": 45,
+      "id_continent": 5,
+      "date_obtain": "1987-08-16",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 35,
+    "fields": {
+      "id_country": 45,
+      "id_continent": 5,
+      "date_obtain": "1988-02-17",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 36,
+    "fields": {
+      "id_country": 19,
+      "id_continent": 7,
+      "date_obtain": "1988-01-18",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 37,
+    "fields": {
+      "id_country": 19,
+      "id_continent": 7,
+      "date_obtain": "1987-01-21",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 38,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1989-03-21",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 39,
+    "fields": {
+      "id_country": 2,
+      "id_continent": 1,
+      "date_obtain": "1989-12-22",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 40,
+    "fields": {
+      "id_country": 2,
+      "id_continent": 1,
+      "date_obtain": "1989-12-13",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 41,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1990-12-22",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 42,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1990-10-13",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 43,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1990-01-01",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 44,
+    "fields": {
+      "id_country": 2,
+      "id_continent": 1,
+      "date_obtain": "1990-01-02",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 45,
+    "fields": {
+      "id_country": 12,
+      "id_continent": 7,
+      "date_obtain": "1990-02-03",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 46,
+    "fields": {
+      "id_country": 12,
+      "id_continent": 7,
+      "date_obtain": "1980-03-03",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 47,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1989-04-05",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 48,
+    "fields": {
+      "id_country": 12,
+      "id_continent": 7,
+      "date_obtain": "1989-05-22",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 49,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1989-05-22",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 50,
+    "fields": {
+      "id_country": 12,
+      "id_continent": 7,
+      "date_obtain": "1989-06-06",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 51,
+    "fields": {
+      "id_country": 3,
+      "id_continent": 7,
+      "date_obtain": "1989-05-20",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 52,
+    "fields": {
+      "id_country": 12,
+      "id_continent": 7,
+      "date_obtain": "1989-09-07",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 53,
+    "fields": {
+      "id_country": 12,
+      "id_continent": 7,
+      "date_obtain": "1989-08-20",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 54,
+    "fields": {
+      "id_country": 3,
+      "id_continent": 7,
+      "date_obtain": "1979-10-06",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 55,
+    "fields": {
+      "id_country": 12,
+      "id_continent": 7,
+      "date_obtain": "1979-09-13",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 56,
+    "fields": {
+      "id_country": 12,
+      "id_continent": 7,
+      "date_obtain": "1979-09-08",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 57,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1979-07-10",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 58,
+    "fields": {
+      "id_country": 6,
+      "id_continent": 6,
+      "date_obtain": "1978-09-10",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 59,
+    "fields": {
+      "id_country": 6,
+      "id_continent": 6,
+      "date_obtain": "1978-02-10",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 60,
+    "fields": {
+      "id_country": 6,
+      "id_continent": 6,
+      "date_obtain": "1989-03-01",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 61,
+    "fields": {
+      "id_country": 6,
+      "id_continent": 6,
+      "date_obtain": "1989-04-04",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 62,
+    "fields": {
+      "id_country": 6,
+      "id_continent": 6,
+      "date_obtain": "1989-04-12",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 63,
+    "fields": {
+      "id_country": 6,
+      "id_continent": 6,
+      "date_obtain": "1978-04-12",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 64,
+    "fields": {
+      "id_country": 6,
+      "id_continent": 6,
+      "date_obtain": "1978-08-25",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 65,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1989-04-12",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 66,
+    "fields": {
+      "id_country": 3,
+      "id_continent": 7,
+      "date_obtain": "1977-04-12",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 67,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1977-12-05",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 68,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1977-12-05",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 69,
+    "fields": {
+      "id_country": 3,
+      "id_continent": 7,
+      "date_obtain": "1977-12-05",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 70,
+    "fields": {
+      "id_country": 12,
+      "id_continent": 7,
+      "date_obtain": "1977-12-05",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 71,
+    "fields": {
+      "id_country": 6,
+      "id_continent": 6,
+      "date_obtain": "1977-12-05",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 72,
+    "fields": {
+      "id_country": 7,
+      "id_continent": 6,
+      "date_obtain": "1977-12-03",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 73,
+    "fields": {
+      "id_country": 7,
+      "id_continent": 6,
+      "date_obtain": "1977-10-05",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 74,
+    "fields": {
+      "id_country": 7,
+      "id_continent": 6,
+      "date_obtain": "1977-03-22",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 75,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1988-03-22",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 76,
+    "fields": {
+      "id_country": 7,
+      "id_continent": 6,
+      "date_obtain": "1988-03-22",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 77,
+    "fields": {
+      "id_country": 7,
+      "id_continent": 6,
+      "date_obtain": "1988-03-22",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 78,
+    "fields": {
+      "id_country": 7,
+      "id_continent": 6,
+      "date_obtain": "1988-03-22",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 79,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1988-03-22",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 80,
+    "fields": {
+      "id_country": 7,
+      "id_continent": 6,
+      "date_obtain": "1988-03-21",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 81,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1988-03-22",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 82,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1988-03-23",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 83,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1989-05-25",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 84,
+    "fields": {
+      "id_country": 12,
+      "id_continent": 7,
+      "date_obtain": "1988-05-25",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 85,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1987-05-25",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 86,
+    "fields": {
+      "id_country": 12,
+      "id_continent": 7,
+      "date_obtain": "1986-05-25",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 87,
+    "fields": {
+      "id_country": 12,
+      "id_continent": 7,
+      "date_obtain": "1986-05-25",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 88,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1986-05-25",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 89,
+    "fields": {
+      "id_country": 7,
+      "id_continent": 6,
+      "date_obtain": "1986-05-25",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 90,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1986-05-25",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 91,
+    "fields": {
+      "id_country": 12,
+      "id_continent": 7,
+      "date_obtain": "1986-05-25",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 92,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1988-05-25",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 93,
+    "fields": {
+      "id_country": 7,
+      "id_continent": 6,
+      "date_obtain": "1988-06-21",
+      "autochthon": false
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 94,
+    "fields": {
+      "id_country": 12,
+      "id_continent": 7,
+      "date_obtain": "1988-06-21",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 95,
+    "fields": {
+      "id_country": 12,
+      "id_continent": 7,
+      "date_obtain": "1984-06-21",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 96,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1984-06-21",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 97,
+    "fields": {
+      "id_country": 12,
+      "id_continent": 7,
+      "date_obtain": "1984-06-21",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 98,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1984-06-21",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 99,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1984-06-21",
+      "autochthon": true
+    }
+  },
+  {
+    "model": "data.citizenship",
+    "pk": 100,
+    "fields": {
+      "id_country": 1,
+      "id_continent": 7,
+      "date_obtain": "1980-03-11",
+      "autochthon": false
+    }
+  }
+]

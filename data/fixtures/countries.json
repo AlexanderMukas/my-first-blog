@@ -1,0 +1,403 @@
+[  
+
+  {
+    "model": "data.countries",
+    "pk": 1,
+    "fields": {
+      "c_name": "Украина",
+      "currency": "UAH"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 2,
+    "fields": {
+      "c_name": "Австралия",
+      "currency": "AUD"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 3,
+    "fields": {
+      "c_name": "Австрия",
+      "currency": "EUR"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 4,
+    "fields": {
+      "c_name": "Азербайджан",
+      "currency": "AZN"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 5,
+    "fields": {
+      "c_name": "Албания",
+      "currency": "ALL"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 6,
+    "fields": {
+      "c_name": "Алжир",
+      "currency": "DZD"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 7,
+    "fields": {
+      "c_name": "Ангола",
+      "currency": "AOA"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 8,
+    "fields": {
+      "c_name": "Аргентина",
+      "currency": "ARS"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 9,
+    "fields": {
+      "c_name": "Армения",
+      "currency": "AMD"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 10,
+    "fields": {
+      "c_name": "Бангладеш",
+      "currency": "BDT"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 11,
+    "fields": {
+      "c_name": "Бахрейн",
+      "currency": "BHD"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 12,
+    "fields": {
+      "c_name": "Беларусь",
+      "currency": "BYR"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 13,
+    "fields": {
+      "c_name": "Бельгия",
+      "currency": "EUR"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 14,
+    "fields": {
+      "c_name": "Болгария",
+      "currency": "BGN"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 15,
+    "fields": {
+      "c_name": "Боливия",
+      "currency": "BOB"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 16,
+    "fields": {
+      "c_name": "Босния и Герцеговина",
+      "currency": "BAM"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 17,
+    "fields": {
+      "c_name": "Ботсвана",
+      "currency": "BWP"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 18,
+    "fields": {
+      "c_name": "Бразилия",
+      "currency": "BRL"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 19,
+    "fields": {
+      "c_name": "Венгрия",
+      "currency": "HUF"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 20,
+    "fields": {
+      "c_name": "Венесуэла",
+      "currency": "VEF"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 21,
+    "fields": {
+      "c_name": "Вьетнам",
+      "currency": "VND"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 22,
+    "fields": {
+      "c_name": "Габон",
+      "currency": "XAF"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 23,
+    "fields": {
+      "c_name": "Гана",
+      "currency": "GHS"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 24,
+    "fields": {
+      "c_name": "Гвинея",
+      "currency": "GNF"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 25,
+    "fields": {
+      "c_name": "Германия",
+      "currency": "EUR"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 26,
+    "fields": {
+      "c_name": "Греция",
+      "currency": "EUR"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 27,
+    "fields": {
+      "c_name": "Грузия",
+      "currency": "GEL"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 28,
+    "fields": {
+      "c_name": "Дания",
+      "currency": "DKK"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 29,
+    "fields": {
+      "c_name": "Египет",
+      "currency": "EGP"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 30,
+    "fields": {
+      "c_name": "Зимбабве",
+      "currency": "ZWL"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 31,
+    "fields": {
+      "c_name": "Израиль",
+      "currency": "ILS"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 32,
+    "fields": {
+      "c_name": "Индия",
+      "currency": "INR"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 33,
+    "fields": {
+      "c_name": "Индонезия",
+      "currency": "IDR"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 34,
+    "fields": {
+      "c_name": "Ирак",
+      "currency": "IQD"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 35,
+    "fields": {
+      "c_name": "Иран",
+      "currency": "IRR"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 36,
+    "fields": {
+      "c_name": "Ирландия",
+      "currency": "EUR"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 37,
+    "fields": {
+      "c_name": "Исландия",
+      "currency": "ISK"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 38,
+    "fields": {
+      "c_name": "Испания",
+      "currency": "EUR"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 39,
+    "fields": {
+      "c_name": "Италия",
+      "currency": "EUR"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 40,
+    "fields": {
+      "c_name": "Казахстан",
+      "currency": "KZT"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 41,
+    "fields": {
+      "c_name": "Камерун",
+      "currency": "XAF"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 42,
+    "fields": {
+      "c_name": "Канада",
+      "currency": "CAD"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 43,
+    "fields": {
+      "c_name": "Кения",
+      "currency": "KES"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 44,
+    "fields": {
+      "c_name": "Киргизия",
+      "currency": "KGS"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 45,
+    "fields": {
+      "c_name": "Колумбия",
+      "currency": "COP"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 46,
+    "fields": {
+      "c_name": "Куба",
+      "currency": "CUP"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 47,
+    "fields": {
+      "c_name": "Латвия",
+      "currency": "EUR"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 48,
+    "fields": {
+      "c_name": "Мадагаскар",
+      "currency": "MGA"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 49,
+    "fields": {
+      "c_name": "Молдавия",
+      "currency": "MDL"
+    }
+  },
+  {
+    "model": "data.countries",
+    "pk": 50,
+    "fields": {
+      "c_name": "Япония",
+      "currency": "JPY"
+    }
+  }
+]

@@ -1,0 +1,53 @@
+[  
+
+  {
+    "model": "data.continents",
+    "pk": 1,
+    "fields": {
+      "cn_name": "Австралия"
+    }
+  },
+  {
+    "model": "data.continents",
+    "pk": 2,
+    "fields": {
+      "cn_name": "Антарктида"
+    }
+  },
+  {
+    "model": "data.continents",
+    "pk": 3,
+    "fields": {
+      "cn_name": "Азия"
+    }
+  },
+  {
+    "model": "data.continents",
+    "pk": 4,
+    "fields": {
+      "cn_name": "Сев.Америка"
+    }
+  },
+  {
+    "model": "data.continents",
+    "pk": 5,
+    "fields": {
+      "cn_name": "Юж.Америка"
+    }
+  },
+  {
+    "model": "data.continents",
+    "pk": 6,
+    "fields": {
+      "cn_name": "Африка"
+    }
+  },
+  {
+    "model": "data.continents",
+    "pk": 7,
+    "fields": {
+      "cn_name": "Европа"
+    }
+  }
+
+]

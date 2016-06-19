@@ -1,0 +1,502 @@
+[  
+  {
+    "model": "data.equipments",
+    "pk": 1,
+    "fields": {
+      "eq_name": "станок_A2_планерный" ,
+      "id_plot": 1,
+      "cost": 3000,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 2,
+    "fields": {
+      "eq_name": "станок_X3_планерный",
+      "id_plot": 1,
+      "cost": 7229,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 3,
+    "fields": {
+      "eq_name": "станок_супер_улучшенный",
+      "id_plot": 1,
+      "cost": 3155,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 4,
+    "fields": {
+      "eq_name": "прессовая_машина_Z1",
+      "id_plot": 1,
+      "cost": 1490,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 5,
+    "fields": {
+      "eq_name": "прессовая_машина_Z2",
+      "id_plot": 1,
+      "cost": 3739,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 6,
+    "fields": {
+      "eq_name": "прессовая_машина_Z3",
+      "id_plot": 1,
+      "cost": 3450,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 7,
+    "fields": {
+      "eq_name": "покрасочная_машина_R0",
+      "id_plot": 1,
+      "cost": 6231,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 8,
+    "fields": {
+      "eq_name": "покрасочная_машина_R1",
+      "id_plot": 1,
+      "cost": 7798,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 9,
+    "fields": {
+      "eq_name": "покрасочная_машина_R2",
+      "id_plot": 1,
+      "cost": 1956,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 10,
+    "fields": {
+      "eq_name": "сборочный_станок_ISR",
+      "id_plot": 1,
+      "cost": 2968,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 11,
+    "fields": {
+      "eq_name": "дельтастанок_ORC1",
+      "id_plot": 2,
+      "cost": 7217,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 12,
+    "fields": {
+      "eq_name": "дельтастанок_ORC2",
+      "id_plot": 2,
+      "cost": 8733,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 13,
+    "fields": {
+      "eq_name": "дельтастанок_ORC3",
+      "id_plot": 2,
+      "cost": 1817,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 14,
+    "fields": {
+      "eq_name": "прессовая_машина_DELTA1",
+      "id_plot": 2,
+      "cost": 9664,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 15,
+    "fields": {
+      "eq_name": "прессовая_машина_DELTA2",
+      "id_plot": 2,
+      "cost": 5181,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 16,
+    "fields": {
+      "eq_name": "прессовая_машина_DELTA3",
+      "id_plot": 2,
+      "cost": 3017,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 17,
+    "fields": {
+      "eq_name": "покрасочная_машина_0AURA",
+      "id_plot": 2,
+      "cost": 5448,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 18,
+    "fields": {
+      "eq_name": "покрасочная_машина_2AURA",
+      "id_plot": 2,
+      "cost": 7523,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 19,
+    "fields": {
+      "eq_name": "покрасочная_машина_3AURA",
+      "id_plot": 2,
+      "cost": 8891,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 20,
+    "fields": {
+      "eq_name": "сборочный_станок_X9",
+      "id_plot": 2,
+      "cost": 7729,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 21,
+    "fields": {
+      "eq_name": "прессовая_машина_самолетов_E2",
+      "id_plot": 3,
+      "cost": 6519,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 22,
+    "fields": {
+      "eq_name": "прессовая_машина_самолетов_E3",
+      "id_plot": 3,
+      "cost": 3724,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 23,
+    "fields": {
+      "eq_name": "оборудование_сборки_мебели_салона",
+      "id_plot": 3,
+      "cost": 1760,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 24,
+    "fields": {
+      "eq_name": "сборочный_станок_Q2",
+      "id_plot": 3,
+      "cost": 1860,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 25,
+    "fields": {
+      "eq_name": "промышленный_3d_принтер_MEGA",
+      "id_plot": 3,
+      "cost": 6186,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 26,
+    "fields": {
+      "eq_name": "сборочный_станок_INGRA2",
+      "id_plot": 4,
+      "cost": 2228,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 27,
+    "fields": {
+      "eq_name": "сборочный_станок_INGRA3",
+      "id_plot": 4,
+      "cost": 3160,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 28,
+    "fields": {
+      "eq_name": "оборудование_транспортного_самолетостроения",
+      "id_plot": 4,
+      "cost": 6926,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 29,
+    "fields": {
+      "eq_name": "станок_военного_уровня",
+      "id_plot": 5,
+      "cost": 6355,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 30,
+    "fields": {
+      "eq_name": "сборочный_станок_FORCE",
+      "id_plot": 5,
+      "cost": 1749,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 31,
+    "fields": {
+      "eq_name": "покрасочная_машина_DOW",
+      "id_plot": 5,
+      "cost": 2350,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 32,
+    "fields": {
+      "eq_name": "пресс_вертолетный_HELL",
+      "id_plot": 6,
+      "cost": 2264,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 33,
+    "fields": {
+      "eq_name": "инструментарий_бокс",
+      "id_plot": 6,
+      "cost": 5067,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 34,
+    "fields": {
+      "eq_name": "сварочный_бокс_ZORE2",
+      "id_plot": 7,
+      "cost": 8650,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 35,
+    "fields": {
+      "eq_name": "редуктор_QYT2",
+      "id_plot": 7,
+      "cost": 6531,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 36,
+    "fields": {
+      "eq_name": "сборочный_бокс_вертолетный",
+      "id_plot": 8,
+      "cost": 2318,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 37,
+    "fields": {
+      "eq_name": "редуктор_AYT2",
+      "id_plot": 8,
+      "cost": 3904,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 38,
+    "fields": {
+      "eq_name": "станок_ракетный",
+      "id_plot": 9,
+      "cost": 6469,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 39,
+    "fields": {
+      "eq_name": "полировочный_станок",
+      "id_plot": 9,
+      "cost": 9740,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 40,
+    "fields": {
+      "eq_name": "компрессорный_станок",
+      "id_plot": 9,
+      "cost": 5675,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 41,
+    "fields": {
+      "eq_name": "оборуд._магнитно-абразивной_обработки",
+      "id_plot": 9,
+      "cost": 2402,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 42,
+    "fields": {
+      "eq_name": "станок_ракетный_T1",
+      "id_plot": 10,
+      "cost": 3974,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 43,
+    "fields": {
+      "eq_name": "станок_ракетный_T2",
+      "id_plot": 10,
+      "cost": 8294,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 44,
+    "fields": {
+      "eq_name": "станок_ракетный_T3",
+      "id_plot": 10,
+      "cost": 5880,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 45,
+    "fields": {
+      "eq_name": "редуктор_ВВВZ1",
+      "id_plot": 11,
+      "cost": 5594,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 46,
+    "fields": {
+      "eq_name": "редуктор_ВВВZ2",
+      "id_plot": 11,
+      "cost": 5772,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 47,
+    "fields": {
+      "eq_name": "редуктор_ВВВZ3",
+      "id_plot": 11,
+      "cost": 9932,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 48,
+    "fields": {
+      "eq_name": "сборочный_комплекс_SUBORN9",
+      "id_plot": 12,
+      "cost": 5114,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 49,
+    "fields": {
+      "eq_name": "сборочный_комплекс_SUBORN8",
+      "id_plot": 12,
+      "cost": 5007,
+      "cost_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.equipments",
+    "pk": 50,
+    "fields": {
+      "eq_name": "сборочный_комплекс_SUBORN7",
+      "id_plot": 12,
+      "cost": 3829,
+      "cost_currency": "UAH"
+    }
+  }
+]

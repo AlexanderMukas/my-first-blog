@@ -48,7 +48,8 @@ INSTALLED_APPS = (
     'suitlocale',
     'suit',
     'import_export',
-
+    # 14.06.2016 - Money field for forms and models
+    'djmoney',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

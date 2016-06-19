@@ -1,0 +1,674 @@
+[
+  {
+    "model": "data.items",
+    "pk": 1,
+    "fields": {
+      "id_supp": 18,
+      "id_plot": 1,
+      "it_name": "металлические_крылья",
+      "price": 3000,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },  
+  {
+    "model": "data.items",
+    "pk": 2,
+    "fields": {
+      "id_supp": 20,
+      "id_plot": 1,
+      "it_name": "вентильный_мотор",
+      "price": 4000,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 3,
+    "fields": {
+      "id_supp": 3,
+      "id_plot": 1,
+      "it_name": "стабилизатор",
+      "price": 500,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 4,
+    "fields": {
+      "id_supp": 9,
+      "id_plot": 1,
+      "it_name": "шасси_планерные",
+      "price": 300,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 5,
+    "fields": {
+      "id_supp": 16,
+      "id_plot": 1,
+      "it_name": "изделия_из_стекловолокна",
+      "price": 400,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 6,
+    "fields": {
+      "id_supp": 2,
+      "id_plot": 2,
+      "it_name": "купол",
+      "price": 1000,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 7,
+    "fields": {
+      "id_supp": 14,
+      "id_plot": 2,
+      "it_name": "центральный_узел",
+      "price": 500,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 8,
+    "fields": {
+      "id_supp": 11,
+      "id_plot": 2,
+      "it_name": "верхние_стяжки",
+      "price": 700,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 9,
+    "fields": {
+      "id_supp": 18,
+      "id_plot": 2,
+      "it_name": "подвесная_система",
+      "price": 300,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 10,
+    "fields": {
+      "id_supp": 5,
+      "id_plot": 2,
+      "it_name": "латы",
+      "price": 100,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 11,
+    "fields": {
+      "id_supp": 8,
+      "id_plot": 2,
+      "it_name": "кабина_дельтаплана",
+      "price": 300,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 12,
+    "fields": {
+      "id_supp": 1,
+      "id_plot": 2,
+      "it_name": "вентильный_мотор_класса_дельтаплан",
+      "price": 1000,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 13,
+    "fields": {
+      "id_supp": 3,
+      "id_plot": 3,
+      "it_name": "крылья_спец.",
+      "price": 3000,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 14,
+    "fields": {
+      "id_supp": 12,
+      "id_plot": 3,
+      "it_name": "фузеляж_A43F342F",
+      "price": 1500,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 15,
+    "fields": {
+      "id_supp": 6,
+      "id_plot": 3,
+      "it_name": "закрылки_спец.",
+      "price": 333,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 16,
+    "fields": {
+      "id_supp": 5,
+      "id_plot": 3,
+      "it_name": "стабилизатор_спец.",
+      "price": 300,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 17,
+    "fields": {
+      "id_supp": 12,
+      "id_plot": 3,
+      "it_name": "двигатели_турбированные",
+      "price": 5002,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 18,
+    "fields": {
+      "id_supp": 5,
+      "id_plot": 4,
+      "it_name": "крылья_транспортные",
+      "price": 3200,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 19,
+    "fields": {
+      "id_supp": 9,
+      "id_plot": 4,
+      "it_name": "фузеляж_АН425",
+      "price": 500,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 20,
+    "fields": {
+      "id_supp": 14,
+      "id_plot": 4,
+      "it_name": "закрылки_АН23",
+      "price": 6060,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 21,
+    "fields": {
+      "id_supp": 4,
+      "id_plot": 4,
+      "it_name": "двигатели_турбированные_A3",
+      "price": 500,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 22,
+    "fields": {
+      "id_supp": 14,
+      "id_plot": 4,
+      "it_name": "телескопическая_опора_AH402",
+      "price": 300,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 23,
+    "fields": {
+      "id_supp": 17,
+      "id_plot": 4,
+      "it_name": "наезд_рампы",
+      "price": 200,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 24,
+    "fields": {
+      "id_supp": 12,
+      "id_plot": 4,
+      "it_name": "приспособление_для_погрузки",
+      "price": 1000,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 25,
+    "fields": {
+      "id_supp": 10,
+      "id_plot": 5,
+      "it_name": "фузеляж_SU23",
+      "price": 1000,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 26,
+    "fields": {
+      "id_supp": 19,
+      "id_plot": 5,
+      "it_name": "наплыв_фузеляжа",
+      "price": 2000,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 27,
+    "fields": {
+      "id_supp": 6,
+      "id_plot": 5,
+      "it_name": "консоли крыла",
+      "price": 3000,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 28,
+    "fields": {
+      "id_supp": 1,
+      "id_plot": 6,
+      "it_name": "вертикальный_вал",
+      "price": 300,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 29,
+    "fields": {
+      "id_supp": 16,
+      "id_plot": 6,
+      "it_name": "хвостовой_вал",
+      "price": 330,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 30,
+    "fields": {
+      "id_supp": 3,
+      "id_plot": 7,
+      "it_name": "упругие_муфты",
+      "price": 400,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 31,
+    "fields": {
+      "id_supp": 4,
+      "id_plot": 7,
+      "it_name": "главный_редуктор",
+      "price": 550,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 32,
+    "fields": {
+      "id_supp": 5,
+      "id_plot": 7,
+      "it_name": "хвостовой_редуктор",
+      "price": 660,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 33,
+    "fields": {
+      "id_supp": 6,
+      "id_plot": 7,
+      "it_name": "оконные_элементы",
+      "price": 300,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 34,
+    "fields": {
+      "id_supp": 7,
+      "id_plot": 8,
+      "it_name": "шасси_вертолетные",
+      "price": 800,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 35,
+    "fields": {
+      "id_supp": 8,
+      "id_plot": 8,
+      "it_name": "двигатель_вертолетный",
+      "price": 5000,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 36,
+    "fields": {
+      "id_supp": 9,
+      "id_plot": 8,
+      "it_name": "большой_вентиль",
+      "price": 300,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 37,
+    "fields": {
+      "id_supp": 10,
+      "id_plot": 8,
+      "it_name": "малый_вентиль",
+      "price": 400,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 38,
+    "fields": {
+      "id_supp": 11,
+      "id_plot": 8,
+      "it_name": "топливный_вертолетный_бак",
+      "price": 100,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 39,
+    "fields": {
+      "id_supp": 11,
+      "id_plot": 9,
+      "it_name": "трубка_ТМР-30",
+      "price": 300,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 40,
+    "fields": {
+      "id_supp": 12,
+      "id_plot": 9,
+      "it_name": "вышибной_заряд",
+      "price": 550,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 41,
+    "fields": {
+      "id_supp": 12,
+      "id_plot": 9,
+      "it_name": "стекловолокно",
+      "price": 30000,
+      "price_currency" : "UAH",
+      "for_count": "тонна"
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 42,
+    "fields": {
+      "id_supp": 13,
+      "id_plot": 10,
+      "it_name": "электроника_авиаракеты",
+      "price": 550,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 43,
+    "fields": {
+      "id_supp": 14,
+      "id_plot": 10,
+      "it_name": "головка_самонаведения",
+      "price": 350,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 44,
+    "fields": {
+      "id_supp": 15,
+      "id_plot": 10,
+      "it_name": "двигатель_авиаракеты",
+      "price": 660,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 45,
+    "fields": {
+      "id_supp": 16,
+      "id_plot": 10,
+      "it_name": "складные_крылья",
+      "price": 430,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 46,
+    "fields": {
+      "id_supp": 16,
+      "id_plot": 10,
+      "it_name": "основная_боеголовка",
+      "price": 200,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 47,
+    "fields": {
+      "id_supp": 17,
+      "id_plot": 10,
+      "it_name": "механизм_взведения",
+      "price": 100,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 48,
+    "fields": {
+      "id_supp": 17,
+      "id_plot": 10,
+      "it_name": "сервомеханизмы",
+      "price": 300,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 49,
+    "fields": {
+      "id_supp": 18,
+      "id_plot": 10,
+      "it_name": "кабель_авиаракеты",
+      "price": 100,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 50,
+    "fields": {
+      "id_supp": 18,
+      "id_plot": 10,
+      "it_name": "пусковой_мотор",
+      "price": 300,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 51,
+    "fields": {
+      "id_supp": 19,
+      "id_plot": 11,
+      "it_name": "активная_радиолокационная_ГСН",
+      "price": 3300,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 52,
+    "fields": {
+      "id_supp": 19,
+      "id_plot": 11,
+      "it_name": "коротноимпульсный_радиовысотомер",
+      "price": 400,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 53,
+    "fields": {
+      "id_supp": 19,
+      "id_plot": 11,
+      "it_name": "воздухозаборник",
+      "price": 320,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 54,
+    "fields": {
+      "id_supp": 19,
+      "id_plot": 11,
+      "it_name": "топливный_бак_Z14",
+      "price": 1020,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 55,
+    "fields": {
+      "id_supp": 20,
+      "id_plot": 11,
+      "it_name": "маршевый_ТРД",
+      "price": 400,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  },
+  {
+    "model": "data.items",
+    "pk": 56,
+    "fields": {
+      "id_supp": 20,
+      "id_plot": 11,
+      "it_name": "поворотные_электромех.устройства",
+      "price": 550,
+      "price_currency" : "UAH",
+      "for_count": "шт."
+    }
+  }
+]

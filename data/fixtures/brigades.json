@@ -1,0 +1,98 @@
+[  
+  {
+    "model": "data.brigades",
+    "pk": 1,
+    "fields": {
+      "br_name": "Бригада_планерного_участка",
+      "id_plot": 1
+    }
+  },
+  {
+    "model": "data.brigades",
+    "pk": 2,
+    "fields": {
+      "br_name": "Бригада_дельтапланного_участка",
+      "id_plot": 2
+    }
+  },
+  {
+    "model": "data.brigades",
+    "pk": 3,
+    "fields": {
+      "br_name": "Бригада_уч.гражданских_самолетов",
+      "id_plot": 3
+    }
+  },
+  {
+    "model": "data.brigades",
+    "pk": 4,
+    "fields": {
+      "br_name": "Бригада_уч.транспортных_самолетов",
+      "id_plot": 4
+    }
+  },
+  {
+    "model": "data.brigades",
+    "pk": 5,
+    "fields": {
+      "br_name": "Бригада_уч.военных_самолетов",
+      "id_plot": 5
+    }
+  },
+  {
+    "model": "data.brigades",
+    "pk": 6,
+    "fields": {
+      "br_name": "Бригада_уч.вертолетного_пресса",
+      "id_plot": 6
+    }
+  },
+  {
+    "model": "data.brigades",
+    "pk": 7,
+    "fields": {
+      "br_name": "Бригада_уч.вертолетной_сварки",
+      "id_plot": 7
+    }
+  },
+  {
+    "model": "data.brigades",
+    "pk": 8,
+    "fields": {
+      "br_name": "Бригада_уч.сборки_верталётов",
+      "id_plot": 8
+    }
+  },
+  {
+    "model": "data.brigades",
+    "pk": 9,
+    "fields": {
+      "br_name": "Бригада_уч.артелерийских_ракет",
+      "id_plot": 9
+    }
+  },
+  {
+    "model": "data.brigades",
+    "pk": 10,
+    "fields": {
+      "br_name": "Бригада_уч.авиационных_ракет",
+      "id_plot": 10
+    }
+  },
+  {
+    "model": "data.brigades",
+    "pk": 11,
+    "fields": {
+      "br_name": "Бригада_уч.военно-морских_ракет",
+      "id_plot": 11
+    }
+  },
+  {
+    "model": "data.brigades",
+    "pk": 12,
+    "fields": {
+      "br_name": "Бригада_уч.сборки_самолетов",
+      "id_plot": 12
+    }
+  }
+]

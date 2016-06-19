@@ -1,0 +1,130 @@
+[  
+  {
+    "model": "data.status",
+    "pk": 1,
+    "fields": {
+      "status": "не_женат" ,
+      "ID_child": 1
+    }
+  },
+  {
+    "model": "data.status",
+    "pk": 2,
+    "fields": {
+      "status": "не_женат" ,
+      "ID_child": 2
+    }
+  },
+  {
+    "model": "data.status",
+    "pk": 3,
+    "fields": {
+      "status": "не_женат" ,
+      "ID_child": 3
+    }
+  },
+  {
+    "model": "data.status",
+    "pk": 4,
+    "fields": {
+      "status": "не_женат" ,
+      "ID_child": 4
+    }
+  },
+  {
+    "model": "data.status",
+    "pk": 5,
+    "fields": {
+      "status": "не_женат" ,
+      "ID_child": 5
+    }
+  },
+  {
+    "model": "data.status",
+    "pk": 6,
+    "fields": {
+      "status": "не_женат" ,
+      "ID_child": 6
+    }
+  },
+  {
+    "model": "data.status",
+    "pk": 7,
+    "fields": {
+      "status": "не_женат" ,
+      "ID_child": 7
+    }
+  },
+  {
+    "model": "data.status",
+    "pk": 8,
+    "fields": {
+      "status": "не_женат" ,
+      "ID_child": 8
+    }
+  },
+  {
+    "model": "data.status",
+    "pk": 9,
+    "fields": {
+      "status": "женат" ,
+      "ID_child": 1
+    }
+  },
+  {
+    "model": "data.status",
+    "pk": 10,
+    "fields": {
+      "status": "женат" ,
+      "ID_child": 2
+    }
+  },
+  {
+    "model": "data.status",
+    "pk": 11,
+    "fields": {
+      "status": "женат" ,
+      "ID_child": 3
+    }
+  },
+  {
+    "model": "data.status",
+    "pk": 12,
+    "fields": {
+      "status": "женат" ,
+      "ID_child": 4
+    }
+  },
+  {
+    "model": "data.status",
+    "pk": 13,
+    "fields": {
+      "status": "женат" ,
+      "ID_child": 5
+    }
+  },
+  {
+    "model": "data.status",
+    "pk": 14,
+    "fields": {
+      "status": "женат" ,
+      "ID_child": 6
+    }
+  },
+  {
+    "model": "data.status",
+    "pk": 15,
+    "fields": {
+      "status": "женат" ,
+      "ID_child": 7
+    }
+  },
+  {
+    "model": "data.status",
+    "pk": 16,
+    "fields": {
+      "status": "женат" ,
+      "ID_child": 8
+    }
+  }
+]

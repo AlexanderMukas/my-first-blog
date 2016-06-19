@@ -1,0 +1,114 @@
+[  
+  {
+    "model": "data.storeges",
+    "pk": 1,
+    "fields": {
+      "s_name": "склад_уч.планеров",
+      "id_stor": 1
+    }
+  },
+  {
+    "model": "data.storeges",
+    "pk": 2,
+    "fields": {
+      "s_name": "склад_уч.дельтапланов",
+      "id_stor": 1
+    }
+  },
+  {
+    "model": "data.storeges",
+    "pk": 3,
+    "fields": {
+      "s_name": "склад_уч.гражданских_самолетов",
+      "id_stor": 1
+    }
+  },
+  {
+    "model": "data.storeges",
+    "pk": 4,
+    "fields": {
+      "s_name": "склад_уч.транспортных_самолетов",
+      "id_stor": 1
+    }
+  },
+  {
+    "model": "data.storeges",
+    "pk": 5,
+    "fields": {
+      "s_name": "склад_уч.военных_самолетов",
+      "id_stor": 1
+    }
+  },
+  {
+    "model": "data.storeges",
+    "pk": 6,
+    "fields": {
+      "s_name": "склад_уч.вертолетного_пресса",
+      "id_stor": 2
+    }
+  },
+  {
+    "model": "data.storeges",
+    "pk": 7,
+    "fields": {
+      "s_name": "склад_уч.сварки_вертолетов",
+      "id_stor": 2
+    }
+  },
+  {
+    "model": "data.storeges",
+    "pk": 8,
+    "fields": {
+      "s_name": "склад_уч.сборки_вертолетов",
+      "id_stor": 2
+    }
+  },
+  {
+    "model": "data.storeges",
+    "pk": 9,
+    "fields": {
+      "s_name": "склад_уч.сборки_арт.ракет",
+      "id_stor": 3
+    }
+  },
+  {
+    "model": "data.storeges",
+    "pk": 10,
+    "fields": {
+      "s_name": "склад_уч.сборки_авиаракет",
+      "id_stor": 3
+    }
+  },
+  {
+    "model": "data.storeges",
+    "pk": 11,
+    "fields": {
+      "s_name": "склад_уч.сборки_воен.мор.ракет",
+      "id_stor": 3
+    }
+  },
+  {
+    "model": "data.storeges",
+    "pk": 12,
+    "fields": {
+      "s_name": "склад_сборочный_цеха_№1",
+      "id_stor": 1
+    }
+  },
+  {
+    "model": "data.storeges",
+    "pk": 13,
+    "fields": {
+      "s_name": "склад_готовой_продукции",
+      "id_stor": 1
+    }
+  },
+  {
+    "model": "data.storeges",
+    "pk": 14,
+    "fields": {
+      "s_name": "склад_материаллов_завода",
+      "id_stor": 1
+    }
+  }
+]

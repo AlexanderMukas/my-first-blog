@@ -1,0 +1,66 @@
+[  
+  {
+    "model": "data.childrens",
+    "pk": 1,
+    "fields": {
+      "ch_count": 0 ,
+      "desc": "нет_детей"
+    }
+  },
+  {
+    "model": "data.childrens",
+    "pk": 2,
+    "fields": {
+      "ch_count": 1 ,
+      "desc": "один_ребенок"
+    }
+  },
+  {
+    "model": "data.childrens",
+    "pk": 3,
+    "fields": {
+      "ch_count": 2 ,
+      "desc": "двое_детей"
+    }
+  },
+  {
+    "model": "data.childrens",
+    "pk": 4,
+    "fields": {
+      "ch_count": 3 ,
+      "desc": "трое_детей"
+    }
+  },
+  {
+    "model": "data.childrens",
+    "pk": 5,
+    "fields": {
+      "ch_count": 4 ,
+      "desc": "четверо_детей"
+    }
+  },
+  {
+    "model": "data.childrens",
+    "pk": 6,
+    "fields": {
+      "ch_count": 5 ,
+      "desc": "пятеро_детей"
+    }
+  },
+  {
+    "model": "data.childrens",
+    "pk": 7,
+    "fields": {
+      "ch_count": 6 ,
+      "desc": "шестеро_детей"
+    }
+  },
+  {
+    "model": "data.childrens",
+    "pk": 8,
+    "fields": {
+      "ch_count": 7 ,
+      "desc": "семеро_детей"
+    }
+  }
+]

@@ -1,0 +1,99 @@
+[  
+
+  {
+    "model": "data.plots",
+    "pk": 1,
+    "fields": {
+      "p_name": "уч.планеров",
+      "id_stor": 1
+    }
+  },
+  {
+    "model": "data.plots",
+    "pk": 2,
+    "fields": {
+      "p_name": "уч.дельтапланов",
+      "id_stor": 1
+    }
+  },
+  {
+    "model": "data.plots",
+    "pk": 3,
+    "fields": {
+      "p_name": "уч.гражд.самолетов",
+      "id_stor": 1
+    }
+  },
+  {
+    "model": "data.plots",
+    "pk": 4,
+    "fields": {
+      "p_name": "уч.трансп.самолетов",
+      "id_stor": 1
+    }
+  },
+  {
+    "model": "data.plots",
+    "pk": 5,
+    "fields": {
+      "p_name": "уч.воен.самолетов",
+      "id_stor": 1
+    }
+  },
+  {
+    "model": "data.plots",
+    "pk": 6,
+    "fields": {
+      "p_name": "уч.прес.деталей",
+      "id_stor": 2
+    }
+  },
+  {
+    "model": "data.plots",
+    "pk": 7,
+    "fields": {
+      "p_name": "уч.свар.вертолетов",
+      "id_stor": 2
+    }
+  },
+  {
+    "model": "data.plots",
+    "pk": 8,
+    "fields": {
+      "p_name": "уч.сбор.вертолетов",
+      "id_stor": 2
+    }
+  },
+  {
+    "model": "data.plots",
+    "pk": 9,
+    "fields": {
+      "p_name": "уч.арт.ракет",
+      "id_stor": 3
+    }
+  },
+  {
+    "model": "data.plots",
+    "pk": 10,
+    "fields": {
+      "p_name": "уч.авиаракет",
+      "id_stor": 3
+    }
+  },
+  {
+    "model": "data.plots",
+    "pk": 11,
+    "fields": {
+      "p_name": "уч.воен.ракет",
+      "id_stor": 3
+    }
+  },
+  {
+    "model": "data.plots",
+    "pk": 12,
+    "fields": {
+      "p_name": "уч.финал.сборки",
+      "id_stor": 1
+    }
+  }
+ ]

@@ -1,0 +1,23 @@
+[  
+  {
+    "model": "data.workshops",
+    "pk": 1,
+    "fields": {
+      "w_name": "самолетный_цех"
+    }
+  },
+  {
+    "model": "data.workshops",
+    "pk": 2,
+    "fields": {
+      "w_name": "вертолетный_цех"
+    }
+  },
+  {
+    "model": "data.workshops",
+    "pk": 3,
+    "fields": {
+      "w_name": "ракетный_цех"
+    }
+  }
+]

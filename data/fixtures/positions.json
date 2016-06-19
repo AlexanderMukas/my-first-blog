@@ -1,0 +1,408 @@
+[  
+  {
+    "model": "data.positions",
+    "pk": 1,
+    "fields": {
+      "name": "аппаратчик_оборудования" ,
+      "rank": 2,
+      "salary": 3000,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 2,
+    "fields": {
+      "name": "аппаратчик_оборудования" ,
+      "rank": 3,
+      "salary": 3450,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 3,
+    "fields": {
+      "name": "аппаратчик_оборудования" ,
+      "rank": 4,
+      "salary": 3900,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 4,
+    "fields": {
+      "name": "аппаратчик_оборудования" ,
+      "rank": 5,
+      "salary": 4350,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 5,
+    "fields": {
+      "name": "аппаратчик_оборудования" ,
+      "rank": 6,
+      "salary": 4800,
+      "salary_currency": "UAH"
+    }
+  },
+
+  {
+    "model": "data.positions",
+    "pk": 6,
+    "fields": {
+      "name": "бригадир" ,
+      "rank": 4,
+      "salary": 5500,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 7,
+    "fields": {
+      "name": "бригадир" ,
+      "rank": 5,
+      "salary": 6500,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 8,
+    "fields": {
+      "name": "бригадир" ,
+      "rank": 6,
+      "salary": 7500,
+      "salary_currency": "UAH"
+    }
+  },
+
+  {
+    "model": "data.positions",
+    "pk": 9,
+    "fields": {
+      "name": "слесарь" ,
+      "rank": 2,
+      "salary": 2800,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 10,
+    "fields": {
+      "name": "слесарь" ,
+      "rank": 3,
+      "salary": 3100,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 11,
+    "fields": {
+      "name": "слесарь" ,
+      "rank": 4,
+      "salary": 3400,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 12,
+    "fields": {
+      "name": "слесарь" ,
+      "rank": 5,
+      "salary": 3700,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 13,
+    "fields": {
+      "name": "слесарь" ,
+      "rank": 6,
+      "salary": 4000,
+      "salary_currency": "UAH"
+    }
+  },
+
+  {
+    "model": "data.positions",
+    "pk": 14,
+    "fields": {
+      "name": "токарь" ,
+      "rank": 2,
+      "salary": 3500,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 15,
+    "fields": {
+      "name": "токарь" ,
+      "rank": 3,
+      "salary": 3800,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 16,
+    "fields": {
+      "name": "токарь" ,
+      "rank": 4,
+      "salary": 4000,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 17,
+    "fields": {
+      "name": "токарь" ,
+      "rank": 5,
+      "salary": 4500,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 18,
+    "fields": {
+      "name": "токарь" ,
+      "rank": 6,
+      "salary": 5500,
+      "salary_currency": "UAH"
+    }
+  },
+
+  {
+    "model": "data.positions",
+    "pk": 19,
+    "fields": {
+      "name": "станочник_металлообработки" ,
+      "rank": 2,
+      "salary": 3300,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 20,
+    "fields": {
+      "name": "станочник_металлообработки" ,
+      "rank": 3,
+      "salary": 3500,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 21,
+    "fields": {
+      "name": "станочник_металлообработки" ,
+      "rank": 4,
+      "salary": 3700,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 22,
+    "fields": {
+      "name": "станочник_металлообработки" ,
+      "rank": 5,
+      "salary": 4000,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 23,
+    "fields": {
+      "name": "станочник_металлообработки" ,
+      "rank": 6,
+      "salary": 4300,
+      "salary_currency": "UAH"
+    }
+  },
+
+  {
+    "model": "data.positions",
+    "pk": 24,
+    "fields": {
+      "name": "наладчик_станков" ,
+      "rank": 2,
+      "salary": 3150,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 25,
+    "fields": {
+      "name": "наладчик_станков" ,
+      "rank": 3,
+      "salary": 3550,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 26,
+    "fields": {
+      "name": "наладчик_станков" ,
+      "rank": 4,
+      "salary": 3850,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 27,
+    "fields": {
+      "name": "наладчик_станков" ,
+      "rank": 5,
+      "salary": 4150,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 28,
+    "fields": {
+      "name": "наладчик_станков" ,
+      "rank": 6,
+      "salary": 4450,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 29,
+    "fields": {
+      "name": "авиационный_механик" ,
+      "rank": 5,
+      "salary": 5450,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 30,
+    "fields": {
+      "name": "авиационный_механик" ,
+      "rank": 6,
+      "salary": 7250,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 31,
+    "fields": {
+      "name": "сборщик_универсальный" ,
+      "rank": 6,
+      "salary": 7450,
+      "salary_currency": "UAH"
+    }
+  },
+
+  {
+    "model": "data.positions",
+    "pk": 32,
+    "fields": {
+      "name": "сварщик" ,
+      "rank": 3,
+      "salary": 2450,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 33,
+    "fields": {
+      "name": "сварщик" ,
+      "rank": 4,
+      "salary": 3450,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 34,
+    "fields": {
+      "name": "сварщик" ,
+      "rank": 5,
+      "salary": 4450,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 35,
+    "fields": {
+      "name": "сварщик" ,
+      "rank": 6,
+      "salary": 5700,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 36,
+    "fields": {
+      "name": "мастер_смены" ,
+      "rank": 3,
+      "salary": 4400,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 37,
+    "fields": {
+      "name": "мастер_смены" ,
+      "rank": 2,
+      "salary": 8450,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 38,
+    "fields": {
+      "name": "мастер_смены" ,
+      "rank": 1,
+      "salary": 9450,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 39,
+    "fields": {
+      "name": "начальник_участка" ,
+      "rank": 1,
+      "salary": 10900,
+      "salary_currency": "UAH"
+    }
+  },
+  {
+    "model": "data.positions",
+    "pk": 40,
+    "fields": {
+      "name": "начальник_цеха" ,
+      "rank": 1,
+      "salary": 18800,
+      "salary_currency": "UAH"
+    }
+  }
+]

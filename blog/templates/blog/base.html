@@ -51,7 +51,9 @@
 
 
             <!-- Latest compiled and minified JavaScript -->
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+                    integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+                    crossorigin="anonymous"></script>
 
         </head>
 
@@ -81,7 +83,7 @@
                         <li {% block act1 %} {% endblock %}> <a href="{% url 'post_list' %}">Новости</a></li> class="active"
                         <li {% block act2 %} {% endblock %}> <a href="{% url 'contacts' %}">Контакты</a></li>
                         <li {% block act3 %} {% endblock %}> <a href="{% url 'about' %}">О проекте</a></li>
-                        <li {% block act4 %} {% endblock %}> <a href="/admin/">База данных</a></li>        
+                        <li {% block act4 %} {% endblock %}> <a href="/admin/data/">База данных</a></li>        
                         
                     </ul>
                         

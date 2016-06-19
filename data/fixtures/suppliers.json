@@ -1,0 +1,222 @@
+[  
+  {
+    "model": "data.suppliers",
+    "pk": 1,
+    "fields": {
+      "s_name": "Aeropract",
+      "id_country": 1,
+      "city_name": "Киев",
+      "phone": "380449238422",
+      "address": "st.Shevchenka,50"
+    }
+  },
+  {
+    "model": "data.suppliers",
+    "pk": 2,
+    "fields": {
+      "s_name": "Liliental",
+      "id_country": 1,
+      "city_name": "Киев",
+      "phone": "380443218456",
+      "address": "st.Heroes,2"
+    }
+  },
+  {
+    "model": "data.suppliers",
+    "pk": 3,
+    "fields": {
+      "s_name": "Antonov",
+      "id_country": 1,
+      "city_name": "Киев",
+      "phone": "380441423422",
+      "address": "st.Skovorody,1"
+    }
+  },
+  {
+    "model": "data.suppliers",
+    "pk": 4,
+    "fields": {
+      "s_name": "Hawker",
+      "id_country": 31,
+      "city_name": "Хайфа",
+      "phone": "97249827436",
+      "address": "st.Abas,15"
+    }
+  },
+  {
+    "model": "data.suppliers",
+    "pk": 5,
+    "fields": {
+      "s_name": "Vickers-Armstrongs",
+      "id_country": 32,
+      "city_name": "Дели",
+      "phone": "91856745634",
+      "address": "st.Diwero,20"
+    }
+  },
+  {
+    "model": "data.suppliers",
+    "pk": 6,
+    "fields": {
+      "s_name": "Boeing",
+      "id_country": 42,
+      "city_name": "Монреаль",
+      "phone": "1745647234",
+      "address": "st.Joynape,44"
+    }
+  },
+  {
+    "model": "data.suppliers",
+    "pk": 7,
+    "fields": {
+      "s_name": "Beech",
+      "id_country": 19,
+      "city_name": "Будапешт",
+      "phone": "36485763423",
+      "address": "u.Vas,10"
+    }
+  },
+  {
+    "model": "data.suppliers",
+    "pk": 8,
+    "fields": {
+      "s_name": "Mitsubishi",
+      "id_country": 50,
+      "city_name": "Токио",
+      "phone": "813923250988",
+      "address": "st.Akunava,32"
+    }
+  },
+  {
+    "model": "data.suppliers",
+    "pk": 9,
+    "fields": {
+      "s_name": "Saab_AB",
+      "id_country": 13,
+      "city_name": "Розеларе",
+      "phone": "32048567456",
+      "address": "Ooststraat,5"
+    }
+  },
+  {
+    "model": "data.suppliers",
+    "pk": 10,
+    "fields": {
+      "s_name": "Jakarta.INC",
+      "id_country": 33,
+      "city_name": "Джакарта",
+      "phone": "62947562341",
+      "address": "JI.Albarkah,10"
+    }
+  },
+  {
+    "model": "data.suppliers",
+    "pk": 11,
+    "fields": {
+      "s_name": "Douglas",
+      "id_country": 31,
+      "city_name": "Иерусалим",
+      "phone": "972348475364",
+      "address": "st.Azza,20"
+    }
+  },
+  {
+    "model": "data.suppliers",
+    "pk": 12,
+    "fields": {
+      "s_name": "McDonnell",
+      "id_country": 25,
+      "city_name": "Бонн",
+      "phone": "4998274356",
+      "address": "Wendelsweg,4"
+    }
+  },
+  {
+    "model": "data.suppliers",
+    "pk": 13,
+    "fields": {
+      "s_name": "Lockheed_Martin",
+      "id_country": 18,
+      "city_name": "Сан-Паулу",
+      "phone": "55284723746",
+      "address": "av.Atlantica,13"
+    }
+  },
+  {
+    "model": "data.suppliers",
+    "pk": 14,
+    "fields": {
+      "s_name": "De_Havilland",
+      "id_country": 13,
+      "city_name": "Брюгге",
+      "phone": "32502853747",
+      "address": "Helmstraat,20"
+    }
+  },
+  {
+    "model": "data.suppliers",
+    "pk": 15,
+    "fields": {
+      "s_name": "Convair",
+      "id_country": 38,
+      "city_name": "Барселона",
+      "phone": "34542742638",
+      "address": "Av.del_Parallel,10"
+    }
+  },
+  {
+    "model": "data.suppliers",
+    "pk": 16,
+    "fields": {
+      "s_name": "Britten-Norman",
+      "id_country": 36,
+      "city_name": "Дублин",
+      "phone": "353984827546",
+      "address": "st.Queen,10"
+    }
+  },
+  {
+    "model": "data.suppliers",
+    "pk": 17,
+    "fields": {
+      "s_name": "Bombardier",
+      "id_country": 42,
+      "city_name": "Дорвал",
+      "phone": "18673949283",
+      "address": "st.Yonge,2"
+    }
+  },
+  {
+    "model": "data.suppliers",
+    "pk": 18,
+    "fields": {
+      "s_name": "Airbus",
+      "id_country": 3,
+      "city_name": "Вена",
+      "phone": "43298752386",
+      "address": "Kochstrasse,10"
+    }
+  },
+  {
+    "model": "data.suppliers",
+    "pk": 19,
+    "fields": {
+      "s_name": "Yuzhmash",
+      "id_country": 1,
+      "city_name": "Днепро",
+      "phone": "380562738423",
+      "address": "st.Rabochaya,23"
+    }
+  },
+  {
+    "model": "data.suppliers",
+    "pk": 20,
+    "fields": {
+      "s_name": "Flight_Design_GMBH",
+      "id_country": 25,
+      "city_name": "Лейнфельден",
+      "phone": "499238447232",
+      "address": "Wilhelmstrasse,32"
+    }
+  }
+]
