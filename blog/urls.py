@@ -12,4 +12,7 @@ urlpatterns = [
 	# 29.05.2016 Для работы в БД через админ панель
 	#url(r'^admin/$'), 
 
+	# 10.06.2016 добавим с пагинатором
+	url(r'^page/(\d+)/$', views.post_list, name='post_list_new'),
+	
 ]

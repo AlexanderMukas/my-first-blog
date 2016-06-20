@@ -118,26 +118,58 @@
     		<div class="content container">
         		<div class="row">
                     <!--<div class="col-md-8">-->
-            		<div class="col-md-12">
+            		<div class="col-md-8">
 
 
-                        <!--
-                		{% for post in posts %}
-                    		<div class="post">
-                        		<div class="date">
-                            		{{ post.published_date }}
-                        		</div>
-                        		<h1><a href="">{{ post.title }}</a></h1>
-                        		<p>{{ post.text|linebreaks }}</p>
-                    		</div>
-                		{% endfor %}
-                        -->
                         {% block content %}
                         {% endblock %}
 
                         {% block login%}
                         {% endblock %}
             		</div>
+                    <div class="post col-md-4">
+                        <h2 style="text-align: center;">Полезные ссылки</h2>
+                        <div class="list-group">
+                            <a href="#" class="list-group-item disabled" style="text-align: center;">
+                                Aircraft News:
+                            </a>
+                            <a href="http://www.avianews.com" class="list-group-item" target="_blank">Новости авиации Украины</a>
+                            <a href="http://www.wing.com.ua" class="list-group-item" target="_blank">Крылья - Все об украинской авиации</a>
+                            <a href="http://www.aviation.com.ua" class="list-group-item" target="_blank">Украинский Авиационный Портал</a>
+                            <a href="http://airticketua.com/news/" class="list-group-item" target="_blank">Авиановости Украины - Авиабилеты</a>
+                        </div>
+                        <h2 style="text-align: center;">Про технологии</h2>
+                        <div class="list-group">
+                            <a href="#" class="list-group-item disabled" style="text-align: center;">
+                                Technology News:
+                            </a>
+                            <a href="https://www.ukr.net/ua/news/tehnologii.html" class="list-group-item" target="_blank">ukr.net/ua -Технологии во всем мире</a>
+                            <a href="http://gagadget.com/news/" class="list-group-item" target="_blank">Портал Gagadget о технологиях</a>
+                            <a href="http://www.dailytechinfo.org/infotech/" class="list-group-item" target="_blank">DailyTechInfo - Новости науки и технологий</a>
+                            <a href="http://delo.ua/tech/" class="list-group-item" target="_blank">Delo.ua - Деловой информационно-новостной сайт</a>
+                        </div>
+                        <h2 style="text-align: center;">Про Web-dev</h2>
+                        <div class="list-group">
+                            <a href="#" class="list-group-item disabled" style="text-align: center;">
+                                Web-developing :
+                            </a>
+                            <a href="http://www.w3schools.com" class="list-group-item" target="_blank">W3Schools Online Web Tutorials</a>
+                            <a href="https://learnxinyminutes.com" class="list-group-item" target="_blank">Learn X in Y Minutes: Scenic Programming Language Tours</a>
+                            <a href="https://www.djangopackages.com" class="list-group-item" target="_blank">Django Packages : Reusable apps, sites and tools directory</a>
+                            <a href="https://www.lynda.com/Web-training-tutorials/88-0.html" class="list-group-item" target="_blank">Lynda.com: Online Video Tutorials, Training</a>
+                        </div>
+                        <h2 style="text-align: center;">Про Python(Django)</h2>
+                        <div class="list-group">
+                            <a href="#" class="list-group-item disabled" style="text-align: center;">
+                                Python / Django sites:
+                            </a>
+                            <a href="http://pythonworld.ru" class="list-group-item" target="_blank">Python 3 для начинающих и чайников - уроки программирования</a>
+                            <a href="http://www.tutorialspoint.com/execute_python_online.php" class="list-group-item" target="_blank">Python online executer</a>
+                            <a href="http://www.tutorialspoint.com/django/" class="list-group-item" target="_blank">TutorialsPoint - Online tutorial database</a>
+                            <a href="https://www.youtube.com/user/CodingEntrepreneurs/videos" class="list-group-item" target="_blank">Youtube chanel of "CodingEntrepreneurs"</a>
+                        </div>
+                    </div>
+
         		</div>
     		</div>
 
@@ -159,23 +191,23 @@
 
                 <div class="col-md-4">
                     <ul class="social-network social-circle">
-                        <li><a href="https://github.com/AlexanderMukas/my-first-blog" class="icoGithub social" title="Github">
+                        <li><a href="https://github.com/AlexanderMukas/my-first-blog" class="icoGithub social" title="Github" target="_blank">
                                 <i class="fa fa-github"></i>
                             </a>
                         </li>
-                        <li><a href="https://www.facebook.com/Mukas.Alexander" class="icoFacebook social" title="Facebook">
+                        <li><a href="https://www.facebook.com/Mukas.Alexander" class="icoFacebook social" title="Facebook" target="_blank">
                                 <i class="fa fa-facebook"></i>
                             </a>
                         </li>
-                        <li><a href="https://twitter.com/OlexanderMukas" class="icoTwitter social" title="Twitter">
+                        <li><a href="https://twitter.com/OlexanderMukas" class="icoTwitter social" title="Twitter" target="_blank">
                                 <i class="fa fa-twitter"></i>
                             </a>
                         </li>
-                        <li><a href="https://plus.google.com/u/0/102638399922448926793" class="icoGoogle social" title="Google +">
+                        <li><a href="https://plus.google.com/u/0/102638399922448926793" class="icoGoogle social" title="Google +" target="_blank">
                                 <i class="fa fa-google-plus"></i>
                             </a>
                         </li>
-                        <li><a href="https://ua.linkedin.com/in/alexander-mukas-663a69b4" class="icoLinkedin social" title="Linkedin">
+                        <li><a href="https://ua.linkedin.com/in/alexander-mukas-663a69b4" class="icoLinkedin social" title="Linkedin" target="_blank">
                                 <i class="fa fa-linkedin"></i>
                             </a>
                         </li>

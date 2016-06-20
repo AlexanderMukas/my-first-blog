@@ -11,14 +11,53 @@ Aircraft Blog - Новости
 {% block act4 %} {% endblock %}
 
 {% block content %} 
-	{% for post in posts %}
-		<div class="post pagination-centered">
-			<div class="date" id="datetimepicker1">
-				{{ post.published_date }}
-				<hr>
-			</div>
-			<h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
-			<p>{{ post.get_short_text|linebreaks }}</p>
+		{% for post in posts %}
+		<div class="post">
+			
+				<div class="date" id="datetimepicker1">
+					<span class="glyphicon glyphicon-envelope"></span>{{ post.author }}
+					{{ post.published_date }}
+					<hr>
+				</div>
+				<h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
+				<p>{{ post.get_short_text|linebreaks }}</p>
+				<div class="Details">
+					<button type="button" class="btn btn-custom" onclick="location.href='{% url 'post_detail' pk=post.pk %}'">Подробнее</button>
+				</div>
+				
+				<!--
+				<a class="btn btn-secondary-outline" href="{% url 'post_detail' pk=post.pk %}" role="button">Подробнее</a>
+				-->
+			
 		</div>
-	{% endfor %}
+		{% endfor %}
+		<!--Pagination -->
+		<div class="row">
+			<div class="pag-box col-md-12">
+				<ul class="pagination pagination-lg">
+				<!-- Обработка кнопки "<< Назад" -->
+				{% if posts.has_previous %}
+					<li><a href="/page/{{ posts.previous_page_number }}">&laquo;</a></li>
+  				{% else %}
+  					<li class="disabled"><a href="#">&laquo;</a></li>
+  				{% endif %}
+  				<!-- Обработка кол-ва страниц -->
+  				{% for page in posts.paginator.page_range %}
+  					{% if page == posts.number %}
+  						<li class="active"><a href="/page/{{ page }}">{{ page }}</a></li>
+  					{% else %}
+  						<li> <a href="/page/{{ page }}">{{ page }}</a> </li>
+  					{% endif %}
+  				{% endfor %}
+  				<!-- Обработка кнопки ">> Далее" -->
+  				{% if posts.has_next %}
+  					<li><a href="/page/{{ posts.next_page_number }}">&raquo;</a></li>
+  				{% else %}
+  					<li class="disabled"><a href="#">&raquo;</a></li>
+  				{% endif %}
+
+  				</ul>
+			</div>	
+		</div>
+
 {% endblock content %}
